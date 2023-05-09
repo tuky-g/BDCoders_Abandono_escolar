@@ -49,6 +49,8 @@ def prepara_df(df_pred):
 
 model_riesgo=joblib.load('/app/BDCoders_Abandono_escolar/5_Streamlit/streamlit/models/RiesgoAbandono/knn_st.joblib')
 
+
+
 # scores de twitter
 score_cluster0=float(0.23068260869565216)
 score_cluster1=float(0.03286976744186046)
