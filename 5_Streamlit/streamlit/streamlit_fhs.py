@@ -47,7 +47,7 @@ def prepara_df(df_pred):
 
 # precargo el modelo
 
-model_riesgo=joblib.load('/app/BDCoders_Abandono_escolar/5. Streamlit/models/RiesgoAbandono/knn_st.joblib')
+model_riesgo=joblib.load('/app/BDCoders_Abandono_escolar/5_Streamlit/streamlit/models/RiesgoAbandono/knn_st.joblib')
 
 # scores de twitter
 score_cluster0=float(0.23068260869565216)
@@ -110,9 +110,9 @@ st.write('Has seleccionado:', topic)
 
 # Create and generate a word cloud image:
 def create_wordcloud(topic):
-    word=list(pd.read_csv('/app/BDCoders_Abandono_escolar/5. Streamlit/wordclouds/words_'+str(topic)+'.csv')['0'])
+    word=list(pd.read_csv('/app/BDCoders_Abandono_escolar/5_Streamlit/streamlit/wordclouds/words_'+str(topic)+'.csv')['0'])
 
-    wordcloud = WordCloud(max_font_size=50, max_words=100,font_path="/app/BDCoders_Abandono_escolar/5. Streamlit/fonts/arial/arial.ttf", background_color="white").generate(' '.join(word))
+    wordcloud = WordCloud(max_font_size=50, max_words=100,font_path="/app/BDCoders_Abandono_escolar/5_Streamlit/streamlit/fonts/arial/arial.ttf", background_color="white").generate(' '.join(word))
     return wordcloud
 
 
