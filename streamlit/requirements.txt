@@ -3,4 +3,8 @@ pandas
 matplotlib
 wordcloud
 scikit-learn>=0.18
+<<<<<<< HEAD:streamlit/requirements.txt
 os
+=======
+
+>>>>>>> 80cc217dc7876d70375b4232564ac6f174c1d344:5_Streamlit/requirements.txt

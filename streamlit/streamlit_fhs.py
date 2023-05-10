@@ -6,6 +6,7 @@ from wordcloud import WordCloud
 import joblib
 import os
 
+
 # funciones
 
 def prepara_df(df_pred):
