@@ -48,8 +48,8 @@ def prepara_df(df_pred):
 
 # precargo el modelo
 
-path_to_find = os.listdir()
-st.title(path_to_find)
+
+
 
 model_riesgo=joblib.load('/app/BDCoders_Abandono_escolar/5_Streamlit/models/RiesgoAbandono/knn_st.joblib')
 
