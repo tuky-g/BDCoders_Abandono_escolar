@@ -49,7 +49,7 @@ def prepara_df(df_pred):
 # precargo el modelo
 path_to_find = os.listdir()
 print(path_to_find)
-model_riesgo=joblib.load(path_to_find+'/models/RiesgoAbandono/knn_st.joblib')
+model_riesgo=joblib.load(str(path_to_find)+'/models/RiesgoAbandono/knn_st.joblib')
 
 # scores de twitter
 score_cluster0=float(0.23068260869565216)
