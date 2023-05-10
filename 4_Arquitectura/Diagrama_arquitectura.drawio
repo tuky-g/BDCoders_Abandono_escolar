@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-05-09T07:18:22.935Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="4uHKjCy4k96dOy6ivYZM" version="21.1.2" type="device">
+<mxfile host="app.diagrams.net" modified="2023-05-10T20:14:46.774Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="oxGITivo9zibw8z_UzbC" version="21.2.9" type="device">
   <diagram name="Página-1" id="HMiQe1yscgGhobdegkLz">
-    <mxGraphModel dx="1562" dy="829" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="880" dy="774" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -223,7 +223,7 @@
         <mxCell id="EDtmoaRXZTR5InwVRaYT-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="EDtmoaRXZTR5InwVRaYT-30" target="EDtmoaRXZTR5InwVRaYT-32" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="EDtmoaRXZTR5InwVRaYT-30" value="modelo.pkl&lt;br&gt;resultados de test/train" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
+        <mxCell id="EDtmoaRXZTR5InwVRaYT-30" value="modelo.joblib" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="1" vertex="1">
           <mxGeometry x="1270" y="990" width="140" height="80" as="geometry" />
         </mxCell>
         <mxCell id="EDtmoaRXZTR5InwVRaYT-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="EDtmoaRXZTR5InwVRaYT-32" edge="1">
@@ -257,6 +257,9 @@
         </mxCell>
         <mxCell id="EDtmoaRXZTR5InwVRaYT-38" value="&lt;b&gt;&lt;font color=&quot;#2457ff&quot;&gt;Arquitectura final&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="30" y="650" width="220" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="fp70rEBXf3fq_7mfmN-F-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://cdn.analyticsvidhya.com/wp-content/uploads/2021/06/39595st.jpeg;" vertex="1" parent="1">
+          <mxGeometry x="1818.19" y="994" width="83.62" height="43.69" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
