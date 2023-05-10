@@ -48,7 +48,7 @@ def prepara_df(df_pred):
 
 # precargo el modelo
 
-model_riesgo=joblib.load('app/BDCoders_Abandono_escolar/5_Streamlit/models/RiesgoAbandono/knn_st.joblib')
+model_riesgo=joblib.load('/models/RiesgoAbandono/knn_st.joblib')
 
 # scores de twitter
 score_cluster0=float(0.23068260869565216)
